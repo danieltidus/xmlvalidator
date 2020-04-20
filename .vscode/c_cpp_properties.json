@@ -1,0 +1,16 @@
+{
+  "env": {
+    "myDefaultIncludePath": ["${workspaceFolder}", "/usr/include/libxml2"]
+  },
+  "configurations": [
+    {
+      "name": "linux",
+      "browse": {
+        "path": ["${workspaceFolder}"],
+        "limitSymbolsToIncludedHeaders": true,
+        "databaseFilename": ""
+      }
+    }
+  ],
+  "version": 4
+}
